@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 70%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+
+/* Start navbar*/
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    line-height: 80px;
+    text-align: right;
+}
+li{
+    color: whitesmoke;
+    display: inline;
+    cursor: pointer;
+    margin: 20px;
+    border: 2px solid rgb(67, 196, 147);
+    background-color: rgb(67, 196, 147);
+    border-radius: 8%;
+}
+li:hover{
+    color: red;
+}
+/* End navbar */
+
+/*start header*/
+.header{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(67, 196, 147);
+    text-align: center;
+    text-transform: capitalize;
+}
+.header img{
+    height: 200px;
+    width: 200px;   
+    position: relative;
+    top: 100px;
+}
+.header h1, p{
+    position: relative;
+    top: 150px;
+}
+/*End header*/
+
+/*start portfolio*/
+.port{
+    height: 770px;
+    width: 100%;
+    text-align: center;
+}
+.pict{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    float: right;
+    margin: 5px 25px;
+    position: relative;
+    right: 50px;
+}
+.pict img{
+    max-width: 100%;
+}
+/*End portfolio*/
+
+/*Start about*/
+.about{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(67, 196, 147);
+    text-align: center;
+}
+.about h1, p, h3{
+    position: relative;
+    top: 150px;
+    color: white;
+}
+h3{
+    display: inline-block;
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 8%;
+    cursor: pointer;
+}
+h3:hover{
+    color: blue;
+}
+/*End about*/
+
+/*Start freelancer*/
+.free{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(2, 10, 36, 0.801);
+}
+.free h1{
+    position: relative;
+    top: 130px;
+}
+/*End freelancer*/
+
+/*Start footer*/
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.footer h4{
+    color:white;
+    line-height: 100px;
+}
+/*End footer*/
